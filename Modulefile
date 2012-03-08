@@ -1,0 +1,8 @@
+name            'h0tbird-hosts'
+version         '0.0.1'
+source          'https://github.com/h0tbird/puppet-hosts'
+author          'Marc Villacorta'
+license         'GPL'
+summary         'Hosts Module'
+description     'Manages /etc/hosts file.'
+project_page    'https://github.com/h0tbird/puppet-hosts'
