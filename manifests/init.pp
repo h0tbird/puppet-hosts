@@ -1,8 +1,10 @@
-class hosts ( $hosts ){
+class hosts ( $hosts = undef ){
 
     resources { 'host':
         purge => true,
     }
 
-    create_resources(host, $hosts)
+    if $hosts {
+    	create_resources(host, $hosts)
+    }
 }
